@@ -1,9 +1,5 @@
 # Testing React Apps Workshop - Exercises
 
-The exercise repository used in the ["Testing React Apps"](https://reactnativetesting.io/reactadvanced22) workshop at Connect.Tech 2022.
-
-This branch is the starting state of the exercises.
-
 ## Requirements
 
 - [Node](https://nodejs.org)
