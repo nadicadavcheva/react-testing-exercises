@@ -6,7 +6,7 @@ export default function MovieRow({movie}) {
       <span>{movie.title}</span>
       {movie.addedToday && (
         <New
-          data-testid="move-added-today-icon"
+          data-testid="movie-added-today-icon"
           fill="orange"
           width="30"
           height="30"

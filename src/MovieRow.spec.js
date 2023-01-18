@@ -10,13 +10,13 @@ describe('MovieRow', () => {
   it('render icon if movie added today', () => {
     const movie = {addedToday: true};
     render(<MovieRow movie={movie} />);
-    expect(screen.getByTestId('move-added-today-icon')).toBeVisible();
+    expect(screen.getByTestId('movie-added-today-icon')).toBeVisible();
   });
   it('do not render icon if the movie was not added today', () => {
     const movie = {addedToday: false};
     render(<MovieRow movie={movie} />);
     expect(
-      screen.queryByTestId('move-added-today-icon'),
+      screen.queryByTestId('movie-added-today-icon'),
     ).not.toBeInTheDocument();
   });
 });
